@@ -99,6 +99,10 @@
       min-height: max(884px, 100dvh);
     }
   </style>
+    <!-- Chatbot Styles & Scripts -->
+    <link href="chatbot.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="chatbot.js" defer></script>
   </head>
 <body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary overflow-x-hidden">
 <!-- TopAppBar -->
@@ -437,4 +441,35 @@
 </a>
 </nav>
 
-```</body></html>
+<!-- Cấu trúc HTML Chatbot -->
+<button class="chatbot-toggle" id="chatbot-toggle" title="Chat với AI">
+    <span class="material-symbols-outlined" style="font-size: 28px;">chat</span>
+</button>
+
+<div class="chatbot-window hidden" id="chatbot-window">
+    <div class="chatbot-header">
+        <div class="chatbot-info">
+            <span class="online-indicator"></span>
+            <h3>Trợ lý AI - K89</h3>
+        </div>
+        <div class="chatbot-actions">
+            <button class="chatbot-refresh" id="chatbot-refresh" title="Làm mới">
+                <span class="material-symbols-outlined">refresh</span>
+            </button>
+            <button id="chatbot-close" title="Đóng">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+    </div>
+    <div class="chatbot-messages" id="chatbot-messages">
+        <!-- Messages will be rendered here via JS -->
+    </div>
+    <div class="chatbot-input-area">
+        <input id="chatbot-input" placeholder="Nhập câu hỏi..." type="text"/>
+        <button id="chatbot-send" title="Gửi">
+            <span class="material-symbols-outlined">send</span>
+        </button>
+    </div>
+</div>
+
+</body></html>
