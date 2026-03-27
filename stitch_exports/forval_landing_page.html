@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>FORVAL VIETNAM | Premium Training Experience</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-fixed": "#d9e2ff",
+                        "tertiary-fixed": "#ffdbc8",
+                        "surface-container-highest": "#343538",
+                        "on-background": "#e3e2e6",
+                        "tertiary-fixed-dim": "#ffb68a",
+                        "on-tertiary-fixed-variant": "#743500",
+                        "surface-bright": "#38393c",
+                        "surface-container": "#1f1f23",
+                        "surface-variant": "#343538",
+                        "inverse-primary": "#0058c9",
+                        "error-container": "#93000a",
+                        "outline": "#8c90a1",
+                        "surface": "#121316",
+                        "on-secondary-container": "#006a70",
+                        "on-error-container": "#ffdad6",
+                        "tertiary-container": "#e66e00",
+                        "surface-container-high": "#292a2d",
+                        "on-tertiary": "#522300",
+                        "outline-variant": "#414655",
+                        "secondary-fixed": "#74f5ff",
+                        "on-secondary-fixed": "#002022",
+                        "secondary": "#ddfcff",
+                        "inverse-surface": "#e3e2e6",
+                        "on-primary-fixed": "#001944",
+                        "surface-container-lowest": "#0d0e11",
+                        "inverse-on-surface": "#303034",
+                        "surface-container-low": "#1b1b1f",
+                        "on-primary-container": "#002760",
+                        "primary-container": "#548dff",
+                        "surface-dim": "#121316",
+                        "on-secondary-fixed-variant": "#004f54",
+                        "on-secondary": "#00363a",
+                        "secondary-fixed-dim": "#00dbe7",
+                        "tertiary": "#ffb68a",
+                        "on-error": "#690005",
+                        "primary": "#afc6ff",
+                        "on-tertiary-container": "#481e00",
+                        "background": "#121316",
+                        "on-primary": "#002d6d",
+                        "on-surface-variant": "#c1c6d8",
+                        "error": "#ffb4ab",
+                        "on-surface": "#e3e2e6",
+                        "primary-fixed-dim": "#afc6ff",
+                        "on-primary-fixed-variant": "#00429a",
+                        "on-tertiary-fixed": "#321300",
+                        "secondary-container": "#00f1fe",
+                        "surface-tint": "#afc6ff"
+                    },
+                    fontFamily: {
+                        "headline": ["Inter", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(52, 53, 56, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .neon-glow-blue {
+            box-shadow: 0 0 20px rgba(0, 114, 255, 0.3);
+        }
+        .neon-text-cyan {
+            text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+        }
+        .bg-mesh {
+            background-color: #121316;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(0, 114, 255, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(0, 242, 255, 0.1) 0px, transparent 50%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#121316]/80 backdrop-blur-xl border-none shadow-[0_0_20px_rgba(0,114,255,0.08)]">
+<div class="flex justify-between items-center px-6 h-16 w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#afc6ff]">menu</span>
+<span class="text-lg font-black tracking-widest text-[#0072ff] uppercase font-inter">FORVAL VIETNAM</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-[#00f2ff] font-inter font-bold tracking-tight transition-colors" href="#">Home</a>
+<a class="text-[#c1c6d8] hover:text-[#00f2ff] font-inter font-bold tracking-tight transition-colors" href="#about">About</a>
+<a class="text-[#c1c6d8] hover:text-[#00f2ff] font-inter font-bold tracking-tight transition-colors" href="#courses">Courses</a>
+<a class="text-[#c1c6d8] hover:text-[#00f2ff] font-inter font-bold tracking-tight transition-colors" href="#portfolio">Portfolio</a>
+<a class="text-[#c1c6d8] hover:text-[#00f2ff] font-inter font-bold tracking-tight transition-colors" href="#contact">Contact</a>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest border border-outline-variant flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Close-up professional headshot of a business consultant in a sharp suit with a confident smile against a dark studio background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2SwJel2LSrTRFqMuyh6BRpbE1IixYN3kfoO6x9xThHObdvG0Em-G5FuVuR8HaNK7e90ma6ph_aM5sxfm-k15jiwymU5POaJnBhspl5AB026BMM1DSo1TWpIRNaNNSvZm36YVdcthvoPITuQKVnRLCkoOe7DxNA7vkmFdi8odfK_yuTurSBMUb5O5G_s-MewoDR_fKhRtEroBgfomFX6MPQ_2xpUSZ792w2q1D6ZVLQDN6bqylFwLFbawWBU46dPzUsZZ9f1mV3DE"/>
+</div>
+</div>
+</header>
+<main class="pt-16">
+<!-- Hero Section -->
+<section class="relative min-h-[795px] flex items-center justify-center px-6 overflow-hidden bg-mesh">
+<div class="absolute inset-0 z-0">
+<div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[120px]"></div>
+<div class="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-secondary-container/10 rounded-full blur-[150px]"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="text-left space-y-8">
+<div class="inline-flex items-center px-4 py-2 rounded-full bg-surface-container-high border border-outline-variant/30 text-[#00f2ff] text-sm font-bold tracking-widest uppercase">
+                        High-Tech Training Center
+                    </div>
+<h1 class="text-6xl md:text-8xl font-black text-on-surface leading-[1.1] tracking-tighter">
+                        CHƯƠNG TRÌNH<br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-[#0072ff] to-[#00f2ff] neon-text-cyan">ĐÀO TẠO</span>
+</h1>
+<p class="text-xl md:text-2xl text-on-surface-variant font-light max-w-xl">
+                        Chuyển hóa kiến thức thành hành động thực tế. Nâng tầm năng lực đội ngũ với tiêu chuẩn Nhật Bản.
+                    </p>
+<div class="flex flex-wrap gap-6 pt-4">
+<a class="px-8 py-4 bg-gradient-to-r from-[#0072ff] to-[#00f2ff] text-white font-bold rounded-full neon-glow-blue hover:scale-105 transition-transform duration-300" href="#contact">
+                            Đăng ký ngay
+                        </a>
+<a class="px-8 py-4 border border-outline-variant/50 text-on-surface font-bold rounded-full hover:bg-surface-container-low transition-colors" href="#courses">
+                            Khám phá khóa học
+                        </a>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/30 to-secondary-container/30 rounded-[2rem] blur-2xl group-hover:blur-3xl transition-all opacity-50"></div>
+<div class="relative rounded-[2rem] overflow-hidden border border-outline-variant/20 aspect-square">
+<img class="w-full h-full object-cover" data-alt="Dynamic corporate team meeting in a high-tech glass office at night with city lights reflecting in the windows, futuristic professional atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVLDX9BdkrdnROn8Pojc_z0-lkhaACh1fLAJIN8ETFaP5jNLRVyEUpSlAOA5roB0xN8BIvrumQNG6akDytDQDH5JN5nFZBGUHGGM5HTXOtn_EEYnLbuv-TXVZYzELfw9FCjGwxe767LY2ghs_CXewHuV9bxo8MBRVl2U6eiHgez6TbssuOcgRxUiJeZVnDYj2ykjQ0uWwng-PfiPBS7CyVeVZi4M92YrW3bkx4gVABwfJIDFIEu4rwygoADfuYS2coGvEAejfVJPA"/>
+</div>
+<!-- Stats Floating Card -->
+<div class="absolute -bottom-6 -left-6 glass-card p-6 rounded-2xl border border-outline-variant/20 shadow-2xl">
+<div class="text-[#00f2ff] text-3xl font-black">10+</div>
+<div class="text-on-surface-variant text-sm font-medium">Năm Kinh Nghiệm</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-24 bg-surface-container-low" id="about">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+<div class="lg:col-span-1 space-y-6">
+<h2 class="text-4xl font-bold text-primary tracking-tight">Về Chúng Tôi</h2>
+<p class="text-on-surface-variant leading-relaxed text-lg">
+                            Forval Vietnam tự hào là cầu nối tri thức với đội ngũ chuyên gia tư vấn hàng đầu từ Nhật Bản, mang đến những phương pháp đào tạo thực chiến và hiệu quả nhất.
+                        </p>
+</div>
+<div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Key Values -->
+<div class="p-8 glass-card rounded-3xl border border-outline-variant/10 hover:border-primary/40 transition-all group">
+<span class="material-symbols-outlined text-[#00f2ff] text-4xl mb-4 block group-hover:scale-110 transition-transform">school</span>
+<h3 class="text-xl font-bold text-on-surface mb-2">Experience-based Learning</h3>
+<p class="text-on-surface-variant text-sm">Học qua trải nghiệm thực tế, áp dụng ngay vào công việc.</p>
+</div>
+<div class="p-8 glass-card rounded-3xl border border-outline-variant/10 hover:border-primary/40 transition-all group">
+<span class="material-symbols-outlined text-[#00f2ff] text-4xl mb-4 block group-hover:scale-110 transition-transform">hub</span>
+<h3 class="text-xl font-bold text-on-surface mb-2">Multi-dimensional Approach</h3>
+<p class="text-on-surface-variant text-sm">Tiếp cận đa chiều, giải quyết vấn đề từ gốc rễ.</p>
+</div>
+<div class="p-8 glass-card rounded-3xl border border-outline-variant/10 hover:border-primary/40 transition-all group">
+<span class="material-symbols-outlined text-[#00f2ff] text-4xl mb-4 block group-hover:scale-110 transition-transform">psychology</span>
+<h3 class="text-xl font-bold text-on-surface mb-2">AI-Integrated Training</h3>
+<p class="text-on-surface-variant text-sm">Tích hợp công nghệ AI tối ưu hóa quy trình làm việc.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section (8 Core Courses) -->
+<section class="py-24 px-6 bg-surface" id="courses">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16 space-y-4">
+<h2 class="text-5xl font-black tracking-tight text-on-surface uppercase">8 Khóa Học Cốt Lõi</h2>
+<div class="w-24 h-1 bg-gradient-to-r from-[#0072ff] to-[#00f2ff] mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Course Card 01 -->
+<div class="relative group p-8 bg-surface-container-low rounded-[2rem] border border-outline-variant/10 hover:border-[#00f2ff]/30 transition-all duration-500 overflow-hidden">
+<div class="absolute top-0 right-0 p-4 text-4xl font-black text-outline-variant/20 group-hover:text-[#00f2ff]/10 transition-colors">01</div>
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 border border-primary/20">
+<span class="material-symbols-outlined text-[#00f2ff]">strategy</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-tight mb-4">Lập kế hoạch kinh doanh chiến lược</h4>
+<div class="text-on-surface-variant text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">Nắm vững nghệ thuật hoạch định tương lai doanh nghiệp.</div>
+</div>
+<!-- Course Card 02 -->
+<div class="relative group p-8 bg-surface-container-low rounded-[2rem] border border-outline-variant/10 hover:border-[#00f2ff]/30 transition-all duration-500 overflow-hidden">
+<div class="absolute top-0 right-0 p-4 text-4xl font-black text-outline-variant/20 group-hover:text-[#00f2ff]/10 transition-colors">02</div>
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 border border-primary/20">
+<span class="material-symbols-outlined text-[#00f2ff]">groups</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-tight mb-4">Gắn kết đội nhóm</h4>
+<div class="text-on-surface-variant text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">Xây dựng văn hóa hợp tác và sức mạnh tập thể.</div>
+</div>
+<!-- Course Card 03 -->
+<div class="relative group p-8 bg-surface-container-low rounded-[2rem] border border-outline-variant/10 hover:border-[#00f2ff]/30 transition-all duration-500 overflow-hidden">
+<div class="absolute top-0 right-0 p-4 text-4xl font-black text-outline-variant/20 group-hover:text-[#00f2ff]/10 transition-colors">03</div>
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 border border-primary/20">
+<span class="material-symbols-outlined text-[#00f2ff]">communication</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-tight mb-4">Giao tiếp chinh phục với DISC</h4>
+<div class="text-on-surface-variant text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">Thấu hiểu tâm lý để giao tiếp hiệu quả vượt trội.</div>
+</div>
+<!-- Course Card 04 -->
+<div class="relative group p-8 bg-surface-container-low rounded-[2rem] border border-outline-variant/10 hover:border-[#00f2ff]/30 transition-all duration-500 overflow-hidden">
+<div class="absolute top-0 right-0 p-4 text-4xl font-black text-outline-variant/20 group-hover:text-[#00f2ff]/10 transition-colors">04</div>
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 border border-primary/20">
+<span class="material-symbols-outlined text-[#00f2ff]">present_to_all</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-tight mb-4">Thuyết trình ấn tượng</h4>
+<div class="text-on-surface-variant text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">Làm chủ sân khấu và truyền cảm hứng mạnh mẽ.</div>
+</div>
+<!-- Course Card 05 -->
+<div class="relative group p-8 bg-surface-container-low rounded-[2rem] border border-outline-variant/10 hover:border-[#00f2ff]/30 transition-all duration-500 overflow-hidden">
+<div class="absolute top-0 right-0 p-4 text-4xl font-black text-outline-variant/20 group-hover:text-[#00f2ff]/10 transition-colors">05</div>
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 border border-primary/20">
+<span class="material-symbols-outlined text-[#00f2ff]">schedule</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-tight mb-4">Quản trị thời gian chất lượng</h4>
+<div class="text-on-surface-variant text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">Tối ưu hóa hiệu suất làm việc mỗi ngày.</div>
+</div>
+<!-- Course Card 06 -->
+<div class="relative group p-8 bg-surface-container-low rounded-[2rem] border border-outline-variant/10 hover:border-[#00f2ff]/30 transition-all duration-500 overflow-hidden">
+<div class="absolute top-0 right-0 p-4 text-4xl font-black text-outline-variant/20 group-hover:text-[#00f2ff]/10 transition-colors">06</div>
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 border border-primary/20">
+<span class="material-symbols-outlined text-[#00f2ff]">lightbulb</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-tight mb-4">Tư duy sáng tạo</h4>
+<div class="text-on-surface-variant text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">Khám phá tiềm năng giải quyết vấn đề đột phá.</div>
+</div>
+<!-- Course Card 07 -->
+<div class="relative group p-8 bg-surface-container-low rounded-[2rem] border border-outline-variant/10 hover:border-[#00f2ff]/30 transition-all duration-500 overflow-hidden">
+<div class="absolute top-0 right-0 p-4 text-4xl font-black text-outline-variant/20 group-hover:text-[#00f2ff]/10 transition-colors">07</div>
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 border border-primary/20">
+<span class="material-symbols-outlined text-[#00f2ff]">bolt</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-tight mb-4">Khơi nguồn động lực</h4>
+<div class="text-on-surface-variant text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">Duy trì năng lượng tích cực và nhiệt huyết.</div>
+</div>
+<!-- Course Card 08 -->
+<div class="relative group p-8 bg-surface-container-low rounded-[2rem] border border-outline-variant/10 hover:border-[#00f2ff]/30 transition-all duration-500 overflow-hidden">
+<div class="absolute top-0 right-0 p-4 text-4xl font-black text-outline-variant/20 group-hover:text-[#00f2ff]/10 transition-colors">08</div>
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 border border-primary/20">
+<span class="material-symbols-outlined text-[#00f2ff]">badge</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-tight mb-4">Phát triển Giảng viên Nội bộ</h4>
+<div class="text-on-surface-variant text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">Kỹ năng truyền đạt và dẫn dắt đào tạo chuyên sâu.</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio/Impact Section -->
+<section class="py-24 bg-surface-container-low" id="portfolio">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col lg:flex-row gap-16 items-center">
+<div class="lg:w-1/2 space-y-8">
+<h2 class="text-4xl font-bold text-on-surface tracking-tight">Giá Trị Đào Tạo Thực Tiễn</h2>
+<div class="space-y-6">
+<div class="flex gap-4 items-start">
+<div class="mt-1 w-10 h-10 shrink-0 bg-[#0072ff]/20 rounded-lg flex items-center justify-center border border-[#0072ff]/30">
+<span class="material-symbols-outlined text-[#00f2ff]">verified</span>
+</div>
+<div>
+<h5 class="text-lg font-bold text-on-surface">Giới hạn 20 học viên</h5>
+<p class="text-on-surface-variant">Đảm bảo sự tương tác và chất lượng giảng dạy cá nhân hóa cao nhất.</p>
+</div>
+</div>
+<div class="flex gap-4 items-start">
+<div class="mt-1 w-10 h-10 shrink-0 bg-[#0072ff]/20 rounded-lg flex items-center justify-center border border-[#0072ff]/30">
+<span class="material-symbols-outlined text-[#00f2ff]">analytics</span>
+</div>
+<div>
+<h5 class="text-lg font-bold text-on-surface">Câu chuyện thành công thực tế</h5>
+<p class="text-on-surface-variant">Hơn 500 doanh nghiệp đã cải thiện 40% hiệu suất sau đào tạo.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:w-1/2 grid grid-cols-2 gap-4">
+<div class="aspect-square rounded-3xl overflow-hidden border border-outline-variant/20">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Group of diverse professionals collaborating around a large digital tablet in a bright modern workspace, high energy and focus" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9gjy9soNz8wKvOeUyJMwolVhTonSiRjEV9-V8OAO8vI1fMi5uciDvD7TJeD2snXj5iE_J5RGoq68qsir7wfzQRDvI3HsSSpVcoNLPMqGhLR9oxroodJc2HfcQIuItjYMyCAt7HsZAsjChlnCpTUSbpL25S3ombeiKZXXnj12fLZe96MrXZ4K3UzGqTJlJQbeGzgGIwJWTQ39eYoHEMo-TZB0yWEZiFK0SAZyga3_YcGuODRpEel7cgKNJChJedyY3UDUy0bGmDmk"/>
+</div>
+<div class="aspect-square rounded-3xl overflow-hidden border border-outline-variant/20 mt-12">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Modern workshop setting with participants engaging in a creative brainstorming session with colorful sticky notes on a glass wall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQYmurqjwko2TUrJudsi02PuO2u12u7W8sk3E2OVWrzi6rsinbDIxpZ0nDTjaSRYhSyW9jo122ELuQs07kUPLHYHliXf-QTeJAkwr7oMPnvvVaS6KBlJdlQwBquSIABdnOC8ATty6VPKYl66tvNupmIhi67bcSQCDIJmkPrNRz1eXFghgOqUch5PMtspwGHlEnNP3qqPSxqthnI2D1ImaftM9thhofFp0PCFDoYSfkUl4nb3FNZEWPQo3IVOHzj4CCryDAqe2gnPg"/>
+</div>
+</div>
+</div>
+<!-- 5 Training Values Bento Grid -->
+<div class="mt-24 grid grid-cols-2 md:grid-cols-5 gap-4">
+<div class="p-6 glass-card rounded-2xl text-center border border-outline-variant/10 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[#00f2ff] mb-2">trending_up</span>
+<div class="text-xs font-bold uppercase tracking-widest text-primary">Tăng trưởng</div>
+</div>
+<div class="p-6 glass-card rounded-2xl text-center border border-outline-variant/10 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[#00f2ff] mb-2">handshake</span>
+<div class="text-xs font-bold uppercase tracking-widest text-primary">Kết nối</div>
+</div>
+<div class="p-6 glass-card rounded-2xl text-center border border-outline-variant/10 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[#00f2ff] mb-2">visibility</span>
+<div class="text-xs font-bold uppercase tracking-widest text-primary">Tầm nhìn</div>
+</div>
+<div class="p-6 glass-card rounded-2xl text-center border border-outline-variant/10 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[#00f2ff] mb-2">workspace_premium</span>
+<div class="text-xs font-bold uppercase tracking-widest text-primary">Chất lượng</div>
+</div>
+<div class="p-6 glass-card rounded-2xl text-center border border-outline-variant/10 hover:bg-surface-container-high transition-colors col-span-2 md:col-span-1">
+<span class="material-symbols-outlined text-[#00f2ff] mb-2">speed</span>
+<div class="text-xs font-bold uppercase tracking-widest text-primary">Tốc độ</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact/Registration Section -->
+<section class="py-24 px-6 bg-surface-container-lowest relative overflow-hidden" id="contact">
+<div class="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[120px] -mr-64 -mt-64"></div>
+<div class="max-w-4xl mx-auto relative z-10">
+<div class="text-center mb-16 space-y-4">
+<h2 class="text-5xl font-black text-on-surface">ĐĂNG KÝ TƯ VẤN</h2>
+<p class="text-on-surface-variant">Để lại thông tin để nhận lộ trình đào tạo tối ưu cho doanh nghiệp của bạn.</p>
+</div>
+<form class="glass-card p-8 md:p-12 rounded-[2.5rem] border border-outline-variant/20 shadow-2xl space-y-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-semibold text-on-surface-variant ml-2">Họ tên</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-[#0072ff] focus:border-transparent outline-none transition-all placeholder:text-outline-variant/50" placeholder="Nguyễn Văn A" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-semibold text-on-surface-variant ml-2">Email</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-[#0072ff] focus:border-transparent outline-none transition-all placeholder:text-outline-variant/50" placeholder="example@company.com" type="email"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-semibold text-on-surface-variant ml-2">Số điện thoại</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-[#0072ff] focus:border-transparent outline-none transition-all placeholder:text-outline-variant/50" placeholder="090 123 4567" type="tel"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-semibold text-on-surface-variant ml-2">Công ty</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-[#0072ff] focus:border-transparent outline-none transition-all placeholder:text-outline-variant/50" placeholder="Tên công ty của bạn" type="text"/>
+</div>
+</div>
+<div class="space-y-4">
+<label class="text-sm font-semibold text-on-surface-variant ml-2">Chọn khóa học quan tâm</label>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+<label class="flex items-center gap-3 p-4 bg-surface-container-low rounded-xl border border-outline-variant/10 cursor-pointer hover:border-primary/40 transition-all">
+<input class="rounded border-outline-variant/50 text-[#0072ff] focus:ring-0" type="checkbox"/>
+<span class="text-sm text-on-surface">01. Lập kế hoạch chiến lược</span>
+</label>
+<label class="flex items-center gap-3 p-4 bg-surface-container-low rounded-xl border border-outline-variant/10 cursor-pointer hover:border-primary/40 transition-all">
+<input class="rounded border-outline-variant/50 text-[#0072ff] focus:ring-0" type="checkbox"/>
+<span class="text-sm text-on-surface">02. Gắn kết đội nhóm</span>
+</label>
+<label class="flex items-center gap-3 p-4 bg-surface-container-low rounded-xl border border-outline-variant/10 cursor-pointer hover:border-primary/40 transition-all">
+<input class="rounded border-outline-variant/50 text-[#0072ff] focus:ring-0" type="checkbox"/>
+<span class="text-sm text-on-surface">03. Giao tiếp DISC</span>
+</label>
+<label class="flex items-center gap-3 p-4 bg-surface-container-low rounded-xl border border-outline-variant/10 cursor-pointer hover:border-primary/40 transition-all">
+<input class="rounded border-outline-variant/50 text-[#0072ff] focus:ring-0" type="checkbox"/>
+<span class="text-sm text-on-surface">04. Thuyết trình ấn tượng</span>
+</label>
+</div>
+</div>
+<button class="w-full py-5 bg-gradient-to-r from-[#0072ff] to-[#00f2ff] text-white font-black text-lg rounded-2xl neon-glow-blue hover:scale-[1.02] active:scale-95 transition-all duration-300" type="submit">
+                        GỬI YÊU CẦU ĐĂNG KÝ
+                    </button>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#121316] border-t border-[#343538] w-full pt-12 pb-24 px-8">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
+<div class="space-y-4">
+<div class="text-2xl font-black text-[#0072ff] tracking-widest uppercase">FORVAL VIETNAM</div>
+<div class="text-[#c1c6d8] text-sm max-w-sm space-y-2">
+<p class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">location_on</span> Vincom Center 10th Floor, 72 Le Thanh Ton, Dist 1, HCMC</p>
+<p class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">mail</span> contact@forval-vietnam.com</p>
+</div>
+</div>
+<div class="flex flex-col md:flex-row gap-8 items-start md:items-center">
+<nav class="flex gap-6">
+<a class="text-xs font-light tracking-wide text-[#c1c6d8] hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="text-xs font-light tracking-wide text-[#c1c6d8] hover:text-white transition-colors" href="#">Terms of Service</a>
+<a class="text-xs font-light tracking-wide text-[#c1c6d8] hover:text-white transition-colors" href="#">Corporate HQ</a>
+</nav>
+<div class="text-[10px] font-light tracking-widest text-[#c1c6d8]/50 uppercase">
+                    © 2024 FORVAL VIETNAM. ALL RIGHTS RESERVED.
+                </div>
+</div>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 py-3 pb-safe bg-[#1b1b1f]/90 backdrop-blur-2xl border-t border-[#414655]/15 shadow-[0_-8px_32px_rgba(0,0,0,0.5)] rounded-t-[2rem]">
+<a class="flex flex-col items-center justify-center text-[#00f2ff] bg-[#0072ff]/10 rounded-xl px-3 py-1" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="text-[10px] font-medium uppercase tracking-tighter">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#c1c6d8] px-3 py-1 hover:bg-[#343538] transition-all" href="#about">
+<span class="material-symbols-outlined">info</span>
+<span class="text-[10px] font-medium uppercase tracking-tighter">About</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#c1c6d8] px-3 py-1 hover:bg-[#343538] transition-all" href="#courses">
+<span class="material-symbols-outlined">auto_stories</span>
+<span class="text-[10px] font-medium uppercase tracking-tighter">Courses</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#c1c6d8] px-3 py-1 hover:bg-[#343538] transition-all" href="#portfolio">
+<span class="material-symbols-outlined">military_tech</span>
+<span class="text-[10px] font-medium uppercase tracking-tighter">Impact</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#c1c6d8] px-3 py-1 hover:bg-[#343538] transition-all" href="#contact">
+<span class="material-symbols-outlined">edit_note</span>
+<span class="text-[10px] font-medium uppercase tracking-tighter">Register</span>
+</a>
+</nav>
+
+```</body></html>
