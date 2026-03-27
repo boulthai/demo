@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const MODEL = 'ces-chatbot-gpt-5.4';
 
     // Fetch nội dung chatbot_data.txt
-    fetch('chatbot_data.txt')
+    fetch('chatbot_data.txt?t=' + new Date().getTime())
         .then(response => response.text())
         .then(data => {
             const nameMatch = data.match(/\*\s*Tên\s+chuyên\s+gia:\s*(.*)/i);
