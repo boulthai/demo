@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Logic System Prompt và Chat History
     let systemPrompt = "";
+    let expertName = "chuyên gia";
     let chatHistory = [];
     
     // API Cấu hình
@@ -21,7 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('chatbot_data.txt')
         .then(response => response.text())
         .then(data => {
-            systemPrompt = `Vai trò: Bạn là AI trợ lý độc quyền cho chuyên gia Nguyễn Văn A.
+            const nameMatch = data.match(/\*\s*Tên\s+chuyên\s+gia:\s*(.*)/i);
+            if (nameMatch) {
+                expertName = nameMatch[1].trim();
+            }
+            systemPrompt = `Vai trò: Bạn là AI trợ lý độc quyền cho chuyên gia ${expertName}.
 Chỉ được phép trả lời dựa trên Knowledge Base dưới đây.
 Phải trả lời bằng Markdown rõ ràng, dễ đọc.
 Luôn:
@@ -47,7 +52,7 @@ ${data}`;
         ];
         
         // Tin nhắn chào mừng ban đầu
-        appendMessage('ai', 'Xin chào! Tôi là trợ lý AI của chuyên gia **Nguyễn Văn A**. Tôi có thể giúp bạn giải đáp thông tin về các giải pháp và khóa học của chuyên gia. Bạn cần tôi hỗ trợ gì nào?');
+        appendMessage('ai', `Xin chào! Tôi là trợ lý AI của chuyên gia **${expertName}**. Tôi có thể giúp bạn giải đáp thông tin về các giải pháp và khóa học của chuyên gia. Bạn cần tôi hỗ trợ gì nào?`);
     }
 
     // 4. Hàm render tin nhắn (Render Markdown)
